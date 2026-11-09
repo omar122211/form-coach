@@ -60,6 +60,8 @@ The counter's settings were chosen on a fixed 30 % "dev" slice (60 clips) and ar
 | Gemini, API default (1 frame/s) | 3 % | 15 % | 13.7 | 8.7 s |
 | Gemini, 5 frames/s | 2 % | 10 % | 11.3 | 12.2 s |
 
+<img src="docs/img/vs-gemini.png" alt="Rep counting: my counter vs Gemini" width="560">
+
 This matches the PushUpBench paper's point — *general video models are not good at counting reps* — and is why Forge counts reps with pose estimation on the phone instead of sending video to an AI service. Where my counter fails: very fast moves (high knees, mountain climbers at ~2 reps/s) and alternating left/right moves, which it often counts as half.
 
 ### Rep counting — the four demo exercises (400 synthetic videos with exact per-frame rep counts)
