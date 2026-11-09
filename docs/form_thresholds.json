@@ -1,0 +1,24 @@
+{
+ "note": "calibrated by coach/calibrate_form.py on real trainer videos",
+ "thresholds": {
+  "squat": {
+   "knee_min": 100.0,
+   "lean_at_bottom": 45.0,
+   "knee_width_ratio": 0.2
+  },
+  "push_up": {
+   "elbow_min": 100.0,
+   "elbow_max": 135.0,
+   "body_line_min": 120.0
+  },
+  "bicep_curl": {
+   "elbow_min": 105.0,
+   "elbow_max": 140.0,
+   "shoulder_range": 35.0
+  },
+  "shoulder_press": {
+   "elbow_max": 135.0,
+   "lean_max": 40.0
+  }
+ }
+}

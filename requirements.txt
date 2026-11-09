@@ -1,0 +1,11 @@
+# PyTorch: install the CPU build first:
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+google-genai==3.0.0
+huggingface_hub==2.4.0
+matplotlib==3.11.2
+mediapipe==1.2.2
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+pydantic-settings==2.16.2
+pytest==9.2.0
+scikit-learn==1.9.1

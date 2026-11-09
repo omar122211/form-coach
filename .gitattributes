@@ -1,0 +1,4 @@
+*.wasm binary
+*.task binary
+*.pt binary
+*.jpg binary

@@ -1,0 +1,562 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "video_fps": 5.0,
+ "metrics": {
+  "n": 60,
+  "exact": 0.0167,
+  "obo": 0.1,
+  "mae": 11.3
+ },
+ "errors": 0,
+ "median_seconds": 12.2,
+ "rows": [
+  {
+   "id": 128,
+   "name": "5 pulses, 3 long",
+   "truth": [
+    4
+   ],
+   "pred": 3,
+   "s": 19.5
+  },
+  {
+   "id": 123,
+   "name": "plank back & forth",
+   "truth": [
+    13
+   ],
+   "pred": 7,
+   "s": 8.5
+  },
+  {
+   "id": 185,
+   "name": "knee to chest",
+   "truth": [
+    16
+   ],
+   "pred": 7,
+   "s": 12.2
+  },
+  {
+   "id": 197,
+   "name": "bridge +crunch",
+   "truth": [
+    7
+   ],
+   "pred": 7,
+   "s": 35.5
+  },
+  {
+   "id": 145,
+   "name": "half plank crunch(L)",
+   "truth": [
+    10
+   ],
+   "pred": 5,
+   "s": 13.4
+  },
+  {
+   "id": 54,
+   "name": "slow sq",
+   "truth": [
+    6
+   ],
+   "pred": 4,
+   "s": 10.0
+  },
+  {
+   "id": 95,
+   "name": "high knees",
+   "truth": [
+    82
+   ],
+   "pred": 31,
+   "s": 9.2
+  },
+  {
+   "id": 210,
+   "name": "clamshell +hip lift",
+   "truth": [
+    13
+   ],
+   "pred": 4,
+   "s": 13.3
+  },
+  {
+   "id": 22,
+   "name": "rainbow",
+   "truth": [
+    8
+   ],
+   "pred": 5,
+   "s": 12.2
+  },
+  {
+   "id": 41,
+   "name": "V bridge hold + butterfly",
+   "truth": [
+    14
+   ],
+   "pred": 5,
+   "s": 19.0
+  },
+  {
+   "id": 26,
+   "name": "leg swipe",
+   "truth": [
+    11
+   ],
+   "pred": 5,
+   "s": 11.2
+  },
+  {
+   "id": 184,
+   "name": "alternating knee crunch",
+   "truth": [
+    10
+   ],
+   "pred": 7,
+   "s": 13.2
+  },
+  {
+   "id": 86,
+   "name": "straight arm lift",
+   "truth": [
+    24
+   ],
+   "pred": 0,
+   "s": 14.5
+  },
+  {
+   "id": 74,
+   "name": "leg slides",
+   "truth": [
+    12
+   ],
+   "pred": 4,
+   "s": 9.5
+  },
+  {
+   "id": 216,
+   "name": "toe taps",
+   "truth": [
+    16
+   ],
+   "pred": 7,
+   "s": 30.2
+  },
+  {
+   "id": 223,
+   "name": "table top reach[r]",
+   "truth": [
+    13
+   ],
+   "pred": 9,
+   "s": 99.6
+  },
+  {
+   "id": 14,
+   "name": "hamstring curl",
+   "truth": [
+    10
+   ],
+   "pred": 5,
+   "s": 13.8
+  },
+  {
+   "id": 53,
+   "name": "high knee & cross punches",
+   "truth": [
+    21
+   ],
+   "pred": 13,
+   "s": 11.2
+  },
+  {
+   "id": 99,
+   "name": "plank jump + 3 punches",
+   "truth": [
+    9
+   ],
+   "pred": 7,
+   "s": 10.1
+  },
+  {
+   "id": 114,
+   "name": "leg lift",
+   "truth": [
+    15
+   ],
+   "pred": 6,
+   "s": 8.8
+  },
+  {
+   "id": 35,
+   "name": "lower leg lift (L)",
+   "truth": [
+    12
+   ],
+   "pred": 6,
+   "s": 16.5
+  },
+  {
+   "id": 106,
+   "name": "ELBOW PLANK",
+   "truth": [
+    1
+   ],
+   "pred": 0,
+   "s": 9.9
+  },
+  {
+   "id": 10,
+   "name": "donkey kick + cross",
+   "truth": [
+    16
+   ],
+   "pred": 5,
+   "s": 15.8
+  },
+  {
+   "id": 148,
+   "name": "bridge",
+   "truth": [
+    50
+   ],
+   "pred": 42,
+   "s": 46.8
+  },
+  {
+   "id": 179,
+   "name": "yoga squat circle",
+   "truth": [
+    6
+   ],
+   "pred": 5,
+   "s": 32.1
+  },
+  {
+   "id": 24,
+   "name": "hamstring curl",
+   "truth": [
+    11
+   ],
+   "pred": 5,
+   "s": 15.4
+  },
+  {
+   "id": 139,
+   "name": "lifted crunch",
+   "truth": [
+    12
+   ],
+   "pred": 5,
+   "s": 13.9
+  },
+  {
+   "id": 209,
+   "name": "half plank crunch",
+   "truth": [
+    11
+   ],
+   "pred": 5,
+   "s": 11.8
+  },
+  {
+   "id": 152,
+   "name": "crunch + knee_leg lift",
+   "truth": [
+    12
+   ],
+   "pred": 7,
+   "s": 14.8
+  },
+  {
+   "id": 151,
+   "name": "sitting leg lift",
+   "truth": [
+    15
+   ],
+   "pred": 7,
+   "s": 16.1
+  },
+  {
+   "id": 111,
+   "name": "leg lift",
+   "truth": [
+    67
+   ],
+   "pred": 3,
+   "s": 15.1
+  },
+  {
+   "id": 100,
+   "name": "HIGH KNEES",
+   "truth": [
+    79,
+    78,
+    80
+   ],
+   "pred": 0,
+   "s": 25.0
+  },
+  {
+   "id": 122,
+   "name": "side plank reach through right",
+   "truth": [
+    12,
+    11,
+    13
+   ],
+   "pred": 9,
+   "s": 16.5
+  },
+  {
+   "id": 108,
+   "name": "plank jacks challenge",
+   "truth": [
+    100
+   ],
+   "pred": 48,
+   "s": 24.1
+  },
+  {
+   "id": 59,
+   "name": "crossbody mountain climber",
+   "truth": [
+    52,
+    51,
+    53
+   ],
+   "pred": 14,
+   "s": 6.3
+  },
+  {
+   "id": 206,
+   "name": "kickback",
+   "truth": [
+    14
+   ],
+   "pred": 4,
+   "s": 7.0
+  },
+  {
+   "id": 18,
+   "name": "leg circle",
+   "truth": [
+    22
+   ],
+   "pred": 7,
+   "s": 18.0
+  },
+  {
+   "id": 42,
+   "name": "drop squats",
+   "truth": [
+    40
+   ],
+   "pred": 21,
+   "s": 21.8
+  },
+  {
+   "id": 94,
+   "name": "jump + punches",
+   "truth": [
+    16
+   ],
+   "pred": 13,
+   "s": 9.3
+  },
+  {
+   "id": 183,
+   "name": "simple crunch",
+   "truth": [
+    12
+   ],
+   "pred": 4,
+   "s": 7.3
+  },
+  {
+   "id": 215,
+   "name": "bridge + leg extend[l]",
+   "truth": [
+    11
+   ],
+   "pred": 4,
+   "s": 9.2
+  },
+  {
+   "id": 207,
+   "name": "leg lift variantion",
+   "truth": [
+    6
+   ],
+   "pred": 4,
+   "s": 7.4
+  },
+  {
+   "id": 20,
+   "name": "donkey kick + cross",
+   "truth": [
+    8
+   ],
+   "pred": 5,
+   "s": 7.8
+  },
+  {
+   "id": 110,
+   "name": "reverse crunch variation",
+   "truth": [
+    12
+   ],
+   "pred": 9,
+   "s": 8.2
+  },
+  {
+   "id": 30,
+   "name": "pointed glute bridge",
+   "truth": [
+    11
+   ],
+   "pred": 4,
+   "s": 6.6
+  },
+  {
+   "id": 140,
+   "name": "bow crunch(R)",
+   "truth": [
+    13
+   ],
+   "pred": 0,
+   "s": 17.2
+  },
+  {
+   "id": 29,
+   "name": "pointe to heel bridge",
+   "truth": [
+    8
+   ],
+   "pred": 5,
+   "s": 8.7
+  },
+  {
+   "id": 81,
+   "name": "kickback(R)",
+   "truth": [
+    17
+   ],
+   "pred": 7,
+   "s": 8.4
+  },
+  {
+   "id": 50,
+   "name": "high knees",
+   "truth": [
+    17
+   ],
+   "pred": 14,
+   "s": 9.8
+  },
+  {
+   "id": 112,
+   "name": "cross crunch",
+   "truth": [
+    17
+   ],
+   "pred": 10,
+   "s": 8.7
+  },
+  {
+   "id": 27,
+   "name": "leg extension",
+   "truth": [
+    12
+   ],
+   "pred": 5,
+   "s": 6.7
+  },
+  {
+   "id": 79,
+   "name": "booty slide",
+   "truth": [
+    10
+   ],
+   "pred": 5,
+   "s": 8.7
+  },
+  {
+   "id": 17,
+   "name": "leg extension",
+   "truth": [
+    11
+   ],
+   "pred": 7,
+   "s": 6.8
+  },
+  {
+   "id": 147,
+   "name": "reverse plank lift",
+   "truth": [
+    6
+   ],
+   "pred": 5,
+   "s": 17.2
+  },
+  {
+   "id": 135,
+   "name": "squat",
+   "truth": [
+    15
+   ],
+   "pred": 10,
+   "s": 14.3
+  },
+  {
+   "id": 92,
+   "name": "mountain climber",
+   "truth": [
+    69,
+    68,
+    70
+   ],
+   "pred": 21,
+   "s": 8.4
+  },
+  {
+   "id": 159,
+   "name": "stretch out +knee touches",
+   "truth": [
+    10
+   ],
+   "pred": 9,
+   "s": 8.2
+  },
+  {
+   "id": 89,
+   "name": "jumping jack",
+   "truth": [
+    35
+   ],
+   "pred": 16,
+   "s": 15.5
+  },
+  {
+   "id": 143,
+   "name": "half plank crunch(R)",
+   "truth": [
+    10
+   ],
+   "pred": 6,
+   "s": 12.5
+  },
+  {
+   "id": 39,
+   "name": "V bridge lift (feet connected)",
+   "truth": [
+    8
+   ],
+   "pred": 5,
+   "s": 8.1
+  }
+ ]
+}

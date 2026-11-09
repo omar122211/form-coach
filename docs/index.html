@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self'; img-src 'self' data: blob:; media-src 'self' blob: mediastream:; connect-src 'self'; worker-src 'self' blob:; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Form Coach — AI rep counter in your browser</title>
+  <meta name="description" content="Counts your reps and checks your form with on-device AI. Your camera never leaves your device.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="logo">⚡</span> Form Coach</div>
+    <p class="tag">AI rep counter &amp; form checker — runs <strong>entirely in your browser</strong>. Video never leaves your device.</p>
+  </header>
+
+  <main>
+    <section class="stage">
+      <div class="controls">
+        <button id="btn-camera" class="primary">Use camera</button>
+        <label class="file">Upload a video<input id="file" type="file" accept="video/*" hidden></label>
+        <select id="sample" aria-label="Replay a recorded set">
+          <option value="">Replay a recorded set…</option>
+          <option value="squat">Squats (skeleton replay)</option>
+          <option value="bicep_curl">Biceps curls (skeleton replay)</option>
+          <option value="push_up">Push-ups (skeleton replay)</option>
+        </select>
+        <button id="btn-stop" class="ghost" disabled>Stop</button>
+      </div>
+      <div class="viewport">
+        <video id="video" playsinline muted></video>
+        <canvas id="canvas"></canvas>
+        <div id="status" class="status">Choose a source to start. The AI model (~20 MB) loads on first use.</div>
+      </div>
+      <p class="hint">Tip: stand side-on for squats and push-ups, facing the camera for curls and presses, with your whole body in view.</p>
+    </section>
+
+    <aside class="panel">
+      <div class="card">
+        <div class="label">Exercise</div>
+        <div id="exercise" class="big">—</div>
+        <div id="confidence" class="muted">detected automatically</div>
+        <select id="override" aria-label="Exercise">
+          <option value="">Auto-detect</option>
+          <option value="squat">Squat</option>
+          <option value="push_up">Push-up</option>
+          <option value="bicep_curl">Biceps curl</option>
+          <option value="shoulder_press">Shoulder press</option>
+        </select>
+      </div>
+      <div class="card">
+        <div class="label">Reps</div>
+        <div id="reps" class="huge">0</div>
+        <div class="bar"><div id="phase"></div></div>
+        <div class="muted">movement range</div>
+      </div>
+      <div class="card">
+        <div class="label">Form feedback</div>
+        <ol id="cues" class="cues"><li class="muted">Each finished rep gets checked here.</li></ol>
+      </div>
+      <p class="fine">Pose: MediaPipe Pose Landmarker (on-device). Exercise model: a small neural network I trained on 2-second pose windows. Form tips are coaching heuristics, not medical advice.
+        <a href="https://github.com/omar122211/form-coach" rel="noopener noreferrer">How it works &amp; accuracy →</a></p>
+    </aside>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

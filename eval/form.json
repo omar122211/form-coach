@@ -1,0 +1,41 @@
+{
+ "squat": {
+  "calibration_reps": 46,
+  "held_out_reps": 39,
+  "held_out_reps_with_a_cue": 0.205,
+  "thresholds": {
+   "knee_min": 100.0,
+   "lean_at_bottom": 45.0,
+   "knee_width_ratio": 0.2
+  }
+ },
+ "push_up": {
+  "calibration_reps": 30,
+  "held_out_reps": 16,
+  "held_out_reps_with_a_cue": 0.125,
+  "thresholds": {
+   "elbow_min": 100.0,
+   "elbow_max": 135.0,
+   "body_line_min": 120.0
+  }
+ },
+ "bicep_curl": {
+  "calibration_reps": 16,
+  "held_out_reps": 3,
+  "held_out_reps_with_a_cue": 0.333,
+  "thresholds": {
+   "elbow_min": 105.0,
+   "elbow_max": 140.0,
+   "shoulder_range": 35.0
+  }
+ },
+ "shoulder_press": {
+  "calibration_reps": 62,
+  "held_out_reps": 51,
+  "held_out_reps_with_a_cue": 0.098,
+  "thresholds": {
+   "elbow_max": 135.0,
+   "lean_max": 40.0
+  }
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "split": {
+  "train": 437,
+  "val": 12,
+  "test": 40
+ },
+ "window_seconds": 2.0,
+ "logistic_regression": {
+  "window_accuracy": 0.8014,
+  "window_macro_f1": 0.7561,
+  "video_accuracy": 0.925,
+  "videos": 40,
+  "confusion_videos": [
+   [
+    9,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    10,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    9,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    9
+   ]
+  ]
+ },
+ "mlp": {
+  "window_accuracy": 0.8728,
+  "window_macro_f1": 0.8138,
+  "video_accuracy": 0.975,
+  "videos": 40,
+  "confusion_videos": [
+   [
+    9,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    10,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    10,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    10
+   ]
+  ]
+ },
+ "cnn": {
+  "window_accuracy": 0.824,
+  "window_macro_f1": 0.7345,
+  "video_accuracy": 0.925,
+  "videos": 40,
+  "confusion_videos": [
+   [
+    8,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    10,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    10,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    9
+   ]
+  ]
+ },
+ "mlp_synthetic_only": {
+  "window_accuracy": 0.6969,
+  "window_macro_f1": 0.6782,
+  "video_accuracy": 0.8,
+  "videos": 40,
+  "confusion_videos": [
+   [
+    7,
+    0,
+    1,
+    2
+   ],
+   [
+    0,
+    10,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    5,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    10
+   ]
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "squat": {
+  "clip": "87fe2aa4_0114_squat_[12].mp4",
+  "reps": [
+   12
+  ]
+ },
+ "bicep_curl": {
+  "clip": "36f0d07e_0300_bicep curls_[24].mp4",
+  "reps": [
+   24
+  ]
+ },
+ "push_up": {
+  "clip": "5e3a8d78_0514_push up (on knees)_[12].mp4",
+  "reps": [
+   12
+  ]
+ },
+ "push_up_box": {
+  "clip": "36f0d07e_0716_box push-ups_[11].mp4",
+  "reps": [
+   11
+  ]
+ }
+}
